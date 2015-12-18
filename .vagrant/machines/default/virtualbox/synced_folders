@@ -1,0 +1,1 @@
+{"virtualbox":{"/www":{"guestpath":"/www","hostpath":"/Users/alexmoreno/labs/vagrant-docker-php/src","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/alexmoreno/labs/vagrant-docker-php","disabled":false}}}

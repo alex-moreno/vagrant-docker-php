@@ -1,0 +1,13 @@
+server {
+
+  listen 80;
+  server_name docker.dev;
+  access_log /var/log/nginx/nodejs_project.log;
+  charset utf-8;
+
+  location / {
+    alias /www/public;
+  }
+
+
+}

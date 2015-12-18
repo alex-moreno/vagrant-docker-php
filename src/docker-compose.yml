@@ -1,9 +1,9 @@
 web:
   restart: always
-  image: nginx
-  #build: ./nginx/
+  #image: nginx
+  build: ./nginx/
   ports:
     - "80:80"
-  volumes:
-    - ./:/var/www
-    - ./vhost.conf:/etc/nginx/sites-enabled/vhost.conf
+#  volumes:
+#    - ./:/var/www
+#    - ./vhost.conf:/etc/nginx/sites-enabled/vhost.conf
